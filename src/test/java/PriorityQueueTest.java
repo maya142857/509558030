@@ -56,7 +56,7 @@ public class PriorityQueueTest {
     public void whenExceptionThrown_thenNoElementCanRemove(){
         Exception e = assertThrows(NoSuchElementException.class,()->{
             PriorityQueue<Integer> test = new PriorityQueue<Integer>();
-            test.remove();
+            //test.remove();
         });
     }
 }
